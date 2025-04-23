@@ -140,7 +140,7 @@ You can adjust the `-n` and `-m` values to control the strictness of the analysi
 After the analysis completes, it's worth examining `output/summary.csv`. Look for rows where `references_found` or `citations_found` is 0. 
 
 *   A value of 0 might indicate that the paper truly has no references or citations recorded in the OpenAlex database.
-*   However, it could also mean the specific DOI wasn't found or indexed correctly by OpenAlex at the time of the query, or that the data exists in other academic databases (like Scopus, Web of Science, etc.).
+*   However, it could also mean the specific DOI wasn't found or indexed correctly by OpenAlex at the time of the query, but that data could exist in other academic databases (like Scopus, Web of Science, etc.).
 *   You can use the list of DOIs with 0 counts from `summary.csv` to manually check these papers in other databases or search engines (like Google Scholar).
 *   The `output/detailed_references_citations.json` file provides a record of exactly what was (or wasn't) retrieved from OpenAlex for each initial DOI during the run.
 
