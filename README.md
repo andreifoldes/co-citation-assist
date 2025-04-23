@@ -60,9 +60,9 @@ Ensure you have Python 3.8 or higher installed.
         ```bash
         uv pip install .
         ```
-    *   **Directly from GitHub (replace `<owner>/<repo>`):**
+    *   **Directly from GitHub:**
         ```bash
-        uv pip install git+https://github.com/<owner>/<repo>.git # Replace with the actual URL
+        uv pip install git+https://github.com/andreifoldes/co-citation-assist.git # Replace with the actual URL
         ```
 
 This will install the `cca` command-line tool and its dependencies (`typer`, `pyalex`) using `uv`.
