@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "co-citation-assist"
+version = "0.1.0"
+description = "CLI tool for backward and forward co-citation analysis using OpenAlex."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Tamas Foldes" }
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.26.0",
+    "typer>=0.9.0",
+    "pyalex>=0.18",
+]
+
+[project.scripts]
+cca = "co_citation_assist.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["co_citation_assist"]
+
+
+# Optional: UV configuration (if you want to enforce uv usage)
+# [tool.uv.sources]
+# pypi = "https://pypi.org/simple"
+
+# Optional: Add linters/formatters like ruff
+# [tool.ruff]
+# line-length = 88
+# select = ["E", "W", "F", "I", "C", "B"] # Example selection
+# ignore = []
+
+# [tool.ruff.format]
+# quote-style = "double"
+# indent-style = "space" 
