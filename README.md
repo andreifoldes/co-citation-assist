@@ -92,8 +92,7 @@ Let's run a sample analysis using the provided `testing/displacement-mnr.ris` fi
 **Important Note:** For best results, ensure the DOIs in your `.ris` file are accurate. We recommend validating the DOIs in your reference manager (like Zotero) *before* exporting the `.ris` file. Plugins like the [Zotero DOI Manager](https://github.com/bwiernik/zotero-shortdoi) [[1]](https://github.com/bwiernik/zotero-shortdoi) can help automate DOI validation and cleaning.
 
 1.  **Navigate to the project directory** (if you cloned it) or ensure the `testing/displacement-mnr.ris` file is accessible from your current directory.
-2.  **Make sure you have configured your OpenAlex email** (see Configuration section).
-3.  **Run the `cca` command:**
+2.  **Run the `cca` command:**
 
     ```bash
     cca testing/displacement-mnr.ris -n 2 -m 2
