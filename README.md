@@ -110,7 +110,7 @@ For better rate limits and reliability, configure a Semantic Scholar API key:
 
 *Note: An `example.env` file is provided in the repository. You can copy it to `.env` and add your credentials.*
 
-## Tutorial: Running an Analysis
+### Retrieve metadata
 
 Let's run a sample analysis using the provided `testing/tiab_screening_results.ris` file.
 
@@ -188,9 +188,9 @@ Let's run a sample analysis using the provided `testing/tiab_screening_results.r
 
 You can adjust the `-n` and `-m` values to control the strictness of the analysis. Setting a threshold to `0` will skip that part of the analysis and prevent the corresponding CSV file (`backward.csv` or `forward.csv`) from being created.
 
-## Network Generation
+### Network Generation
 
-After completing a co-citation analysis, you can generate network visualizations from the collected data using the `network_cli` module:
+After completing a co-citation analysis, you can generate network file that can support VosViewer visualizations from the collected data using the `network_cli` module:
 
 ```bash
 # Generate bibliographic coupling network (papers linked by shared references)
