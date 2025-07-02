@@ -188,6 +188,42 @@ Let's run a sample analysis using the provided `testing/tiab_screening_results.r
 
 You can adjust the `-n` and `-m` values to control the strictness of the analysis. Setting a threshold to `0` will skip that part of the analysis and prevent the corresponding CSV file (`backward.csv` or `forward.csv`) from being created.
 
+## Network Generation
+
+After completing a co-citation analysis, you can generate network visualizations from the collected data using the `network_cli` module:
+
+```bash
+# Generate bibliographic coupling network (papers linked by shared references)
+python -m co_citation_assist.network_cli output/detailed_references_citations.json
+
+# Generate co-citation network (papers linked by being cited together)
+python -m co_citation_assist.network_cli output/detailed_references_citations.json --mode co_citation
+
+# Advanced options: minimum link strength, maximum nodes, custom output
+python -m co_citation_assist.network_cli output/detailed_references_citations.json \
+  --min-strength 2 --max-nodes 50 -o output/my_network.json
+```
+
+**Network Generation Options:**
+
+*   `input_file`: Path to the `detailed_references_citations.json` file from a previous analysis
+*   `--mode`: Network type - `bibliographic_coupling` (default) or `co_citation`
+    *   **Bibliographic coupling**: Links papers that share references (papers citing the same sources)
+    *   **Co-citation**: Links papers that are cited together by other papers
+*   `--min-strength`: Minimum number of shared connections required for a link (default: 1)
+*   `--max-nodes`: Maximum number of nodes to include in the network (default: 100)
+*   `-o, --output`: Custom output file path (default: auto-generated based on mode)
+
+**Network Output:**
+
+*   Generates JSON files with network data suitable for visualization tools
+*   Real metadata (title, authors, publication year) is fetched from the OpenAlex API
+*   Node labels use format "firstauthor-surname (year)", e.g. "smith (2020)"
+*   Output files are named based on the mode:
+    *   `network_bibliographic_coupling.json`
+    *   `network_co_citation.json`
+*   Compatible with network visualization tools like Gephi, Cytoscape, or web-based libraries
+
 **Interpreting the Results:**
 
 After the analysis completes, examine the output files to understand your results:
