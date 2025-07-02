@@ -140,4 +140,107 @@ def extract_dois_from_ris(file_path: Path) -> List[str]:
             logger.warning(f"No valid DOI found in record: {title[:60]}...")
 
     logger.info(f"Extracted {len(dois)} unique DOIs from {len(records)} records.")
-    return list(dois) 
+    return list(dois)
+
+
+def extract_mag_ids_from_ris(file_path: Path) -> List[str]:
+    """
+    Extracts unique Microsoft Academic Graph (MAG) IDs from a RIS file.
+    
+    Looks for MAG IDs in KW fields with format 'mag:XXXXXXXX'.
+    
+    Args:
+        file_path: Path to the RIS file.
+    
+    Returns:
+        A list of unique MAG IDs found in the file.
+        Returns an empty list if parsing fails or no MAG IDs are found.
+    """
+    records = parse_ris_file(file_path)
+    if not records:
+        return []
+    
+    mag_ids = set()
+    
+    for record in records:
+        if 'KW' in record and record['KW']:
+            kw_field = record['KW'].strip()
+            # Split KW field by newlines and check each line for mag: prefix
+            for kw_line in kw_field.split('\n'):
+                kw_line = kw_line.strip()
+                if kw_line.startswith('mag:'):
+                    mag_id = kw_line[4:]  # Remove 'mag:' prefix
+                    if mag_id.isdigit():  # Basic validation - MAG IDs are numeric
+                        mag_ids.add(mag_id)
+                        logger.debug(f"Found MAG ID '{mag_id}' in record KW field")
+                    else:
+                        logger.debug(f"Value '{kw_line}' in KW field did not look like a valid MAG ID.")
+        
+        if not mag_ids:
+            # Log records where no MAG ID was found (only if no DOI either)
+            title = record.get('TI', record.get('T1', '<No Title Found>'))
+            has_doi = any(key in record and record[key] for key in ('DO', 'DI'))
+            if not has_doi:
+                logger.debug(f"No MAG ID or DOI found in record: {title[:60]}...")
+    
+    logger.info(f"Extracted {len(mag_ids)} unique MAG IDs from {len(records)} records.")
+    return list(mag_ids)
+
+
+def extract_identifiers_from_ris(file_path: Path) -> tuple[List[str], List[str]]:
+    """
+    Extracts both DOIs and MAG IDs from a RIS file.
+    
+    Args:
+        file_path: Path to the RIS file.
+    
+    Returns:
+        A tuple of (dois, mag_ids) lists.
+    """
+    records = parse_ris_file(file_path)
+    if not records:
+        return [], []
+    
+    dois = set()
+    mag_ids = set()
+    doi_keys = ("DO", "DI")
+    
+    for record in records:
+        found_doi = None
+        found_mag_id = None
+        
+        # Try to extract DOI first
+        for key in doi_keys:
+            if key in record and record[key]:
+                potential_doi = record[key].strip()
+                if potential_doi.startswith('10.') and '/' in potential_doi:
+                    found_doi = potential_doi.lower()
+                    parts = found_doi.split()
+                    if len(parts) > 1 and parts[-1].startswith('10.'):
+                        found_doi = parts[-1]
+                    logger.debug(f"Found DOI '{found_doi}' in record field {key}")
+                    break
+        
+        # If no DOI found, try to extract MAG ID from KW field
+        if not found_doi and 'KW' in record and record['KW']:
+            kw_field = record['KW'].strip()
+            for kw_line in kw_field.split('\n'):
+                kw_line = kw_line.strip()
+                if kw_line.startswith('mag:'):
+                    mag_id = kw_line[4:]
+                    if mag_id.isdigit():
+                        found_mag_id = mag_id
+                        logger.debug(f"Found MAG ID '{found_mag_id}' in record KW field")
+                        break
+        
+        # Add to respective sets
+        if found_doi:
+            dois.add(found_doi)
+        elif found_mag_id:
+            mag_ids.add(found_mag_id)
+        else:
+            title = record.get('TI', record.get('T1', '<No Title Found>'))
+            logger.warning(f"No valid DOI or MAG ID found in record: {title[:60]}...")
+    
+    logger.info(f"Extracted {len(dois)} unique DOIs and {len(mag_ids)} unique MAG IDs from {len(records)} records.")
+    return list(dois), list(mag_ids) 

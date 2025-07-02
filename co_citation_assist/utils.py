@@ -79,6 +79,9 @@ def get_openalex_email() -> str:
         # Try loading from .env file
         env_vars = load_env_file()
         email = env_vars.get("OPENALEX_EMAIL")
+        # Set in environment for future use
+        if email:
+            os.environ["OPENALEX_EMAIL"] = email
     
     # Fallback to anonymous
     if not email or not isinstance(email, str) or '@' not in email:
@@ -87,4 +90,34 @@ def get_openalex_email() -> str:
     else:
         logger.debug(f"Using email {email} for OpenAlex API")
     
-    return email 
+    return email
+
+def get_semantic_scholar_api_key() -> Optional[str]:
+    """
+    Get the API key to use for Semantic Scholar API requests.
+    
+    Checks:
+    1. SEMANTIC_SCHOLAR_API_KEY environment variable
+    2. .env file
+    3. Returns None if not found (API works without key but with rate limits)
+    
+    Returns:
+        API key to use for Semantic Scholar API requests, or None
+    """
+    # First check actual environment variable
+    api_key = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+    
+    if not api_key:
+        # Try loading from .env file
+        env_vars = load_env_file()
+        api_key = env_vars.get("SEMANTIC_SCHOLAR_API_KEY")
+        # Set in environment for future use
+        if api_key:
+            os.environ["SEMANTIC_SCHOLAR_API_KEY"] = api_key
+    
+    if api_key:
+        logger.debug("Using API key for Semantic Scholar API")
+    else:
+        logger.debug("No API key found for Semantic Scholar API - using rate-limited access")
+    
+    return api_key 

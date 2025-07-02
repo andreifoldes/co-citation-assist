@@ -1,0 +1,64 @@
+TY  - JOUR
+TI  - Deep learning approaches for automated feature extraction in guitar playing technique recognition
+AU  - Smith, John
+AU  - Johnson, Mary
+JO  - Journal of Music Technology
+VL  - 15
+IS  - 3
+SP  - 45
+EP  - 67
+PY  - 2020
+KW  - mag:2394618024
+AB  - This paper presents novel deep learning approaches for recognizing guitar playing techniques automatically from audio signals.
+ER  - 
+
+TY  - CONF
+TI  - Machine learning applications in music information retrieval
+AU  - Brown, Alice
+AU  - Davis, Robert
+BT  - Proceedings of the International Conference on Music Computing
+SP  - 112
+EP  - 125
+PY  - 2019
+KW  - mag:3048295162
+AB  - A comprehensive survey of machine learning techniques applied to music information retrieval tasks.
+ER  - 
+
+TY  - JOUR
+TI  - Neural networks for chord recognition in polyphonic music
+AU  - Wilson, Emily
+AU  - Taylor, James
+JO  - Computer Music Journal
+VL  - 42
+IS  - 2
+SP  - 78
+EP  - 95
+PY  - 2021
+DO  - 10.1162/comj_a_00567
+AB  - This work explores the use of neural networks for automatic chord recognition in complex polyphonic music.
+ER  - 
+
+TY  - JOUR
+TI  - Automatic transcription of drum patterns using convolutional neural networks
+AU  - Garcia, Carlos
+AU  - Martinez, Sofia
+JO  - IEEE Transactions on Audio, Speech and Language Processing
+VL  - 28
+SP  - 1456
+EP  - 1467
+PY  - 2022
+KW  - mag:4285067890
+AB  - A CNN-based approach for automatic drum pattern transcription from audio recordings.
+ER  - 
+
+TY  - CONF
+TI  - Real-time music genre classification using spectral features
+AU  - Anderson, Michael
+AU  - White, Sarah
+BT  - International Conference on Acoustics, Speech and Signal Processing
+SP  - 234
+EP  - 239
+PY  - 2018
+KW  - mag:2756341289
+AB  - Implementation of real-time music genre classification system using spectral analysis.
+ER  - 
