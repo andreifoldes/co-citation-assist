@@ -1,0 +1,1668 @@
+{
+  "network": {
+    "items": [
+      {
+        "id": 254,
+        "label": "Vandewater (2008)",
+        "description": "<table><tr><td>Authors:</td><td>Elizabeth A. Vandewater; Hope M. Cummings</td></tr><tr><td>Title:</td><td>Media Use and Childhood Obesity</td></tr><tr><td>Source:</td><td>Unknown Source</td></tr><tr><td>Year:</td><td>2008</td></tr></table>",
+        "url": "https://openalex.org/W1536410830",
+        "x": 1.9319,
+        "y": 1.3944,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 15.0,
+          "Citations": 9.0,
+          "Norm. citations": 0.53
+        },
+        "scores": {
+          "Pub. year": 2008.0,
+          "Citations": 9.0,
+          "Norm. citations": 0.53
+        }
+      },
+      {
+        "id": 321,
+        "label": "Mcdaniel (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Brandon T. McDaniel</td></tr><tr><td>Title:</td><td>Parent distraction with phones, reasons for use, and impacts on parenting and child outcomes: A review of the emerging research</td></tr><tr><td>Source:</td><td>Human Behavior and Emerging Technologies</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2941047047",
+        "x": -0.7405,
+        "y": 1.0465,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 190.0,
+          "Norm. citations": 31.67
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 190.0,
+          "Norm. citations": 31.67
+        }
+      },
+      {
+        "id": 500,
+        "label": "Bartel (2016)",
+        "description": "<table><tr><td>Authors:</td><td>Kate Bartel; Michael Gradisar</td></tr><tr><td>Title:</td><td>New Directions in the Link Between Technology Use and Sleep in Young People</td></tr><tr><td>Source:</td><td>Springer eBooks</td></tr><tr><td>Year:</td><td>2016</td></tr></table>",
+        "url": "https://openalex.org/W2528479871",
+        "x": 0.9731,
+        "y": -0.6647,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 48.0,
+          "Citations": 47.0,
+          "Norm. citations": 5.22
+        },
+        "scores": {
+          "Pub. year": 2016.0,
+          "Citations": 47.0,
+          "Norm. citations": 5.22
+        }
+      },
+      {
+        "id": 895,
+        "label": "Robinson (2008)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson; Steven P. Martin</td></tr><tr><td>Title:</td><td>IT and Activity Displacement: Behavioral Evidence from the U.S. General Social Survey (GSS)</td></tr><tr><td>Source:</td><td>Social Indicators Research</td></tr><tr><td>Year:</td><td>2008</td></tr></table>",
+        "url": "https://openalex.org/W2031442311",
+        "x": -1.7146,
+        "y": -1.6235,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 44.0,
+          "Citations": 38.0,
+          "Norm. citations": 2.24
+        },
+        "scores": {
+          "Pub. year": 2008.0,
+          "Citations": 38.0,
+          "Norm. citations": 2.24
+        }
+      },
+      {
+        "id": 903,
+        "label": "Robinson (2010)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson</td></tr><tr><td>Title:</td><td>IT, TV and Time Displacement: What Alexander Szalai Anticipated but Couldn’t Know</td></tr><tr><td>Source:</td><td>Social Indicators Research</td></tr><tr><td>Year:</td><td>2010</td></tr></table>",
+        "url": "https://openalex.org/W1972583654",
+        "x": -0.4482,
+        "y": 1.568,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 52.0,
+          "Citations": 18.0,
+          "Norm. citations": 1.2
+        },
+        "scores": {
+          "Pub. year": 2010.0,
+          "Citations": 18.0,
+          "Norm. citations": 1.2
+        }
+      },
+      {
+        "id": 998,
+        "label": "Goode (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Joshua A. Goode; Paula Fomby; Stefanie Mollborn; Aubrey Limburg</td></tr><tr><td>Title:</td><td>Children’s Technology Time in Two US Cohorts</td></tr><tr><td>Source:</td><td>Child Indicators Research</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2979969073",
+        "x": -0.7092,
+        "y": 0.3928,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 45.0,
+          "Norm. citations": 7.5
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 45.0,
+          "Norm. citations": 7.5
+        }
+      },
+      {
+        "id": 1043,
+        "label": "Hale (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Lauren Hale; Xian Li; Lauren E. Hartstein; Monique K. LeBourgeois</td></tr><tr><td>Title:</td><td>Media Use and Sleep in Teenagers: What Do We Know?</td></tr><tr><td>Source:</td><td>Current Sleep Medicine Reports</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2960800476",
+        "x": -1.7562,
+        "y": 1.702,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 62.0,
+          "Citations": 51.0,
+          "Norm. citations": 8.5
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 51.0,
+          "Norm. citations": 8.5
+        }
+      },
+      {
+        "id": 1557,
+        "label": "Kowert (2014)",
+        "description": "<table><tr><td>Authors:</td><td>Rachel Kowert; Emese Domahidi; Ruth Festl; Thorsten Quandt</td></tr><tr><td>Title:</td><td>Social gaming, lonely life? The impact of digital game play on adolescents’ social circles</td></tr><tr><td>Source:</td><td>Computers in Human Behavior</td></tr><tr><td>Year:</td><td>2014</td></tr></table>",
+        "url": "https://openalex.org/W2064319742",
+        "x": 0.7239,
+        "y": -0.719,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 49.0,
+          "Citations": 124.0,
+          "Norm. citations": 11.27
+        },
+        "scores": {
+          "Pub. year": 2014.0,
+          "Citations": 124.0,
+          "Norm. citations": 11.27
+        }
+      },
+      {
+        "id": 1563,
+        "label": "Kowert (2014)",
+        "description": "<table><tr><td>Authors:</td><td>Rachel Kowert; Julian A. Oldmeadow</td></tr><tr><td>Title:</td><td>Playing for social comfort: Online video game play as a social accommodator for the insecurely attached</td></tr><tr><td>Source:</td><td>Computers in Human Behavior</td></tr><tr><td>Year:</td><td>2014</td></tr></table>",
+        "url": "https://openalex.org/W2089226523",
+        "x": -1.2685,
+        "y": -0.3026,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 61.0,
+          "Citations": 75.0,
+          "Norm. citations": 6.82
+        },
+        "scores": {
+          "Pub. year": 2014.0,
+          "Citations": 75.0,
+          "Norm. citations": 6.82
+        }
+      },
+      {
+        "id": 1594,
+        "label": "Lee (2015)",
+        "description": "<table><tr><td>Authors:</td><td>Seung‐Yeop Lee; Sangwoo Lee</td></tr><tr><td>Title:</td><td>Online video services and other media: Substitutes or complement</td></tr><tr><td>Source:</td><td>Computers in Human Behavior</td></tr><tr><td>Year:</td><td>2015</td></tr></table>",
+        "url": "https://openalex.org/W209535092",
+        "x": -1.6763,
+        "y": 1.5089,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 15.0,
+          "Citations": 27.0,
+          "Norm. citations": 2.7
+        },
+        "scores": {
+          "Pub. year": 2015.0,
+          "Citations": 27.0,
+          "Norm. citations": 2.7
+        }
+      },
+      {
+        "id": 1631,
+        "label": "Liang (2016)",
+        "description": "<table><tr><td>Authors:</td><td>Lichan Liang; Dan Zhou; Chunyong Yuan; Aihui Shao (and 1 others)</td></tr><tr><td>Title:</td><td>Gender differences in the relationship between internet addiction and depression: A cross-lagged study in Chinese adolescents</td></tr><tr><td>Source:</td><td>Computers in Human Behavior</td></tr><tr><td>Year:</td><td>2016</td></tr></table>",
+        "url": "https://openalex.org/W2521916850",
+        "x": 0.4486,
+        "y": -1.1476,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 22.0,
+          "Citations": 216.0,
+          "Norm. citations": 24.0
+        },
+        "scores": {
+          "Pub. year": 2016.0,
+          "Citations": 216.0,
+          "Norm. citations": 24.0
+        }
+      },
+      {
+        "id": 1946,
+        "label": "Fairlie (2017)",
+        "description": "<table><tr><td>Authors:</td><td>Robert W. Fairlie; Ariel Kalil</td></tr><tr><td>Title:</td><td>The effects of computers on children's social development and school participation: Evidence from a randomized control experiment</td></tr><tr><td>Source:</td><td>Economics of Education Review</td></tr><tr><td>Year:</td><td>2017</td></tr></table>",
+        "url": "https://openalex.org/W2559862203",
+        "x": -0.3398,
+        "y": -1.5865,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 27.0,
+          "Norm. citations": 3.38
+        },
+        "scores": {
+          "Pub. year": 2017.0,
+          "Citations": 27.0,
+          "Norm. citations": 3.38
+        }
+      },
+      {
+        "id": 1989,
+        "label": "Thulin (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Eva Thulin; Bertil Vilhelmson</td></tr><tr><td>Title:</td><td>More at home, more alone? Youth, digital media and the everyday use of time and space</td></tr><tr><td>Source:</td><td>Geoforum</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2912121561",
+        "x": 0.133,
+        "y": 0.7605,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 50.0,
+          "Citations": 57.0,
+          "Norm. citations": 9.5
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 57.0,
+          "Norm. citations": 9.5
+        }
+      },
+      {
+        "id": 2411,
+        "label": "Rey-lopez (2007)",
+        "description": "<table><tr><td>Authors:</td><td>Juan Pablo Rey-López; Germán Vicente‐Rodríguez; Mireia Biosca; Luís A. Moreno</td></tr><tr><td>Title:</td><td>Sedentary behaviour and obesity development in children and adolescents</td></tr><tr><td>Source:</td><td>Nutrition Metabolism and Cardiovascular Diseases</td></tr><tr><td>Year:</td><td>2007</td></tr></table>",
+        "url": "https://openalex.org/W2005615569",
+        "x": 0.199,
+        "y": 1.0633,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 51.0,
+          "Citations": 571.0,
+          "Norm. citations": 31.72
+        },
+        "scores": {
+          "Pub. year": 2007.0,
+          "Citations": 571.0,
+          "Norm. citations": 31.72
+        }
+      },
+      {
+        "id": 2461,
+        "label": "Hale (2024)",
+        "description": "<table><tr><td>Authors:</td><td>Lauren Hale; Lauren E. Hartstein; Tolga Atilla Ceranoglu</td></tr><tr><td>Title:</td><td>Social Media and Sleep Health</td></tr><tr><td>Source:</td><td>Pediatric Clinics of North America</td></tr><tr><td>Year:</td><td>2024</td></tr></table>",
+        "url": "https://openalex.org/W4401872977",
+        "x": 1.1243,
+        "y": 0.9177,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 63.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        },
+        "scores": {
+          "Pub. year": 2024.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        }
+      },
+      {
+        "id": 2572,
+        "label": "Smith (2017)",
+        "description": "<table><tr><td>Authors:</td><td>L Smith; Daniel L. King; Cele Richardson; Brandy M. Roane (and 1 others)</td></tr><tr><td>Title:</td><td>Mechanisms influencing older adolescents' bedtimes during videogaming: the roles of game difficulty and flow</td></tr><tr><td>Source:</td><td>Sleep Medicine</td></tr><tr><td>Year:</td><td>2017</td></tr></table>",
+        "url": "https://openalex.org/W2753962405",
+        "x": -1.5002,
+        "y": -0.2021,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 31.0,
+          "Citations": 17.0,
+          "Norm. citations": 2.12
+        },
+        "scores": {
+          "Pub. year": 2017.0,
+          "Citations": 17.0,
+          "Norm. citations": 2.12
+        }
+      },
+      {
+        "id": 2648,
+        "label": "Bauducco (2024)",
+        "description": "<table><tr><td>Authors:</td><td>Serena Bauducco; Meg Pillion; Kate Bartel; Chelsea Reynolds (and 2 others)</td></tr><tr><td>Title:</td><td>A bidirectional model of sleep and technology use: A theoretical review of How much, for whom, and which mechanisms</td></tr><tr><td>Source:</td><td>Sleep Medicine Reviews</td></tr><tr><td>Year:</td><td>2024</td></tr></table>",
+        "url": "https://openalex.org/W4394824528",
+        "x": -0.2738,
+        "y": 1.9157,
+        "cluster": 1,
+        "weights": {
+          "Links": 5.0,
+          "Total link strength": 78.0,
+          "Citations": 32.0,
+          "Norm. citations": 32.0
+        },
+        "scores": {
+          "Pub. year": 2024.0,
+          "Citations": 32.0,
+          "Norm. citations": 32.0
+        }
+      },
+      {
+        "id": 2735,
+        "label": "Lee (2015)",
+        "description": "<table><tr><td>Authors:</td><td>Seung Yeop Lee; Sang Woo Lee; Chang‐Wan Kim</td></tr><tr><td>Title:</td><td>Time displacement effect of online video services on other media in South Korea</td></tr><tr><td>Source:</td><td>Telematics and Informatics</td></tr><tr><td>Year:</td><td>2015</td></tr></table>",
+        "url": "https://openalex.org/W1425407579",
+        "x": -0.1615,
+        "y": -1.5416,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 15.0,
+          "Citations": 16.0,
+          "Norm. citations": 1.6
+        },
+        "scores": {
+          "Pub. year": 2015.0,
+          "Citations": 16.0,
+          "Norm. citations": 1.6
+        }
+      },
+      {
+        "id": 2747,
+        "label": "Qin (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Yuren Qin; Hichang Cho; Lianshan Zhang</td></tr><tr><td>Title:</td><td>Augmentation and displacement effects of multiplayer social network games: Examining the roles of social interactions and co-players’ identities</td></tr><tr><td>Source:</td><td>Telematics and Informatics</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3116338053",
+        "x": -1.938,
+        "y": 0.0698,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 21.0,
+          "Citations": 10.0,
+          "Norm. citations": 2.0
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 10.0,
+          "Norm. citations": 2.0
+        }
+      },
+      {
+        "id": 2870,
+        "label": "Robinson (2001)",
+        "description": "<table><tr><td>Authors:</td><td>Thomas N. Robinson</td></tr><tr><td>Title:</td><td>TELEVISION VIEWING AND CHILDHOOD OBESITY</td></tr><tr><td>Source:</td><td>Pediatric Clinics of North America</td></tr><tr><td>Year:</td><td>2001</td></tr></table>",
+        "url": "https://openalex.org/W2053489121",
+        "x": 0.4214,
+        "y": 1.8383,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 524.0,
+          "Norm. citations": 21.83
+        },
+        "scores": {
+          "Pub. year": 2001.0,
+          "Citations": 524.0,
+          "Norm. citations": 21.83
+        }
+      },
+      {
+        "id": 3051,
+        "label": "Hills (2009)",
+        "description": "<table><tr><td>Authors:</td><td>Andrew P. Hills</td></tr><tr><td>Title:</td><td>It's Time to be More Serious About Activating Youngsters: Lessons for Childhood Obesity</td></tr><tr><td>Source:</td><td>Journal of Exercise Science &amp; Fitness</td></tr><tr><td>Year:</td><td>2009</td></tr></table>",
+        "url": "https://openalex.org/W2127878733",
+        "x": -0.3971,
+        "y": -0.3041,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 15.0,
+          "Citations": 7.0,
+          "Norm. citations": 0.44
+        },
+        "scores": {
+          "Pub. year": 2009.0,
+          "Citations": 7.0,
+          "Norm. citations": 0.44
+        }
+      },
+      {
+        "id": 3828,
+        "label": "Hills (2010)",
+        "description": "<table><tr><td>Authors:</td><td>Andrew P. Hills; Anthony D. Okely; Louise A. Baur</td></tr><tr><td>Title:</td><td>Addressing childhood obesity through increased physical activity</td></tr><tr><td>Source:</td><td>Nature Reviews Endocrinology</td></tr><tr><td>Year:</td><td>2010</td></tr></table>",
+        "url": "https://openalex.org/W2032529853",
+        "x": -0.6505,
+        "y": -1.222,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 15.0,
+          "Citations": 81.0,
+          "Norm. citations": 5.4
+        },
+        "scores": {
+          "Pub. year": 2010.0,
+          "Citations": 81.0,
+          "Norm. citations": 5.4
+        }
+      },
+      {
+        "id": 4127,
+        "label": "Straker (2009)",
+        "description": "<table><tr><td>Authors:</td><td>Leon Straker; Clare Pollock; Barbara A. Maslen</td></tr><tr><td>Title:</td><td>Principles for the wise use of computers by children</td></tr><tr><td>Source:</td><td>Ergonomics</td></tr><tr><td>Year:</td><td>2009</td></tr></table>",
+        "url": "https://openalex.org/W2012777498",
+        "x": -1.5729,
+        "y": -1.7912,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 14.0,
+          "Citations": 103.0,
+          "Norm. citations": 6.44
+        },
+        "scores": {
+          "Pub. year": 2009.0,
+          "Citations": 103.0,
+          "Norm. citations": 6.44
+        }
+      },
+      {
+        "id": 4231,
+        "label": "Ai (2012)",
+        "description": "<table><tr><td>Authors:</td><td>Ming Ai</td></tr><tr><td>Title:</td><td>How computer and Internet use influences mental health: a five-wave latent growth model</td></tr><tr><td>Source:</td><td>Asian Journal of Communication</td></tr><tr><td>Year:</td><td>2012</td></tr></table>",
+        "url": "https://openalex.org/W2057742456",
+        "x": 0.2001,
+        "y": 0.0522,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 24.0,
+          "Citations": 11.0,
+          "Norm. citations": 0.85
+        },
+        "scores": {
+          "Pub. year": 2012.0,
+          "Citations": 11.0,
+          "Norm. citations": 0.85
+        }
+      },
+      {
+        "id": 4723,
+        "label": "Robinson (2011)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson</td></tr><tr><td>Title:</td><td>IT USE AND LEISURE TIME DISPLACEMENT</td></tr><tr><td>Source:</td><td>Information Communication &amp; Society</td></tr><tr><td>Year:</td><td>2011</td></tr></table>",
+        "url": "https://openalex.org/W1572946386",
+        "x": -1.6872,
+        "y": 0.4165,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 58.0,
+          "Citations": 48.0,
+          "Norm. citations": 3.43
+        },
+        "scores": {
+          "Pub. year": 2011.0,
+          "Citations": 48.0,
+          "Norm. citations": 3.43
+        }
+      },
+      {
+        "id": 4741,
+        "label": "Vilhelmson (2016)",
+        "description": "<table><tr><td>Authors:</td><td>Bertil Vilhelmson; Eva Thulin; Erik Elldér</td></tr><tr><td>Title:</td><td>Where does time spent on the Internet come from? Tracing the influence of information and communications technology use on daily activities</td></tr><tr><td>Source:</td><td>Information Communication &amp; Society</td></tr><tr><td>Year:</td><td>2016</td></tr></table>",
+        "url": "https://openalex.org/W2320444617",
+        "x": -0.1466,
+        "y": 0.2021,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 35.0,
+          "Citations": 82.0,
+          "Norm. citations": 9.11
+        },
+        "scores": {
+          "Pub. year": 2016.0,
+          "Citations": 82.0,
+          "Norm. citations": 9.11
+        }
+      },
+      {
+        "id": 4746,
+        "label": "Hall (2018)",
+        "description": "<table><tr><td>Authors:</td><td>Jeffrey A. Hall; Michael W. Kearney; Chong Xing</td></tr><tr><td>Title:</td><td>Two tests of social displacement through social media use</td></tr><tr><td>Source:</td><td>Information Communication &amp; Society</td></tr><tr><td>Year:</td><td>2018</td></tr></table>",
+        "url": "https://openalex.org/W2793542015",
+        "x": 1.8447,
+        "y": -1.003,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 20.0,
+          "Citations": 96.0,
+          "Norm. citations": 13.71
+        },
+        "scores": {
+          "Pub. year": 2018.0,
+          "Citations": 96.0,
+          "Norm. citations": 13.71
+        }
+      },
+      {
+        "id": 4837,
+        "label": "Domahidi (2016)",
+        "description": "<table><tr><td>Authors:</td><td>Emese Domahidi; Johannes Breuer; Rachel Kowert; Ruth Festl (and 1 others)</td></tr><tr><td>Title:</td><td>A Longitudinal Analysis of Gaming- and Non-Gaming-Related Friendships and Social Support among Social Online Game Players</td></tr><tr><td>Source:</td><td>Media Psychology</td></tr><tr><td>Year:</td><td>2016</td></tr></table>",
+        "url": "https://openalex.org/W2561997186",
+        "x": -1.4679,
+        "y": -1.8383,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 44.0,
+          "Citations": 53.0,
+          "Norm. citations": 5.89
+        },
+        "scores": {
+          "Pub. year": 2016.0,
+          "Citations": 53.0,
+          "Norm. citations": 5.89
+        }
+      },
+      {
+        "id": 4840,
+        "label": "Rovira (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Darío Páez Rovira; Gisela Isabel Delfino; Salvador Vargas Salfate; James H. Liu (and 3 others)</td></tr><tr><td>Title:</td><td>A longitudinal study of the effects of internet use on subjective well-being</td></tr><tr><td>Source:</td><td>Media Psychology</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2969587745",
+        "x": 0.9355,
+        "y": 0.112,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 39.0,
+          "Norm. citations": 6.5
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 39.0,
+          "Norm. citations": 6.5
+        }
+      },
+      {
+        "id": 5216,
+        "label": "Williams (2007)",
+        "description": "<table><tr><td>Authors:</td><td>Dmitri Williams</td></tr><tr><td>Title:</td><td>The Impact of Time Online: Social Capital and Cyberbalkanization</td></tr><tr><td>Source:</td><td>CyberPsychology &amp; Behavior</td></tr><tr><td>Year:</td><td>2007</td></tr></table>",
+        "url": "https://openalex.org/W2051726293",
+        "x": 1.8304,
+        "y": -0.5907,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 25.0,
+          "Citations": 120.0,
+          "Norm. citations": 6.67
+        },
+        "scores": {
+          "Pub. year": 2007.0,
+          "Citations": 120.0,
+          "Norm. citations": 6.67
+        }
+      },
+      {
+        "id": 5542,
+        "label": "Liu (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Dong Liu; Roy F. Baumeister; Chia‐chen Yang; Baijing Hu</td></tr><tr><td>Title:</td><td>Retracted: Digital Communication Media Use and Psychological Well-Being: A Meta-Analysis</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2979901578",
+        "x": -0.3109,
+        "y": -1.9085,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 242.0,
+          "Norm. citations": 40.33
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 242.0,
+          "Norm. citations": 40.33
+        }
+      },
+      {
+        "id": 5678,
+        "label": "Kahn (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Michal Kahn; Natalie Barnett; Assaf Glazer; Michael Gradisar</td></tr><tr><td>Title:</td><td>Sleep and screen exposure across the beginning of life: deciphering the links using big-data analytics</td></tr><tr><td>Source:</td><td>SLEEP</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3080476651",
+        "x": -1.499,
+        "y": -0.5087,
+        "cluster": 1,
+        "weights": {
+          "Links": 4.0,
+          "Total link strength": 44.0,
+          "Citations": 18.0,
+          "Norm. citations": 3.6
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 18.0,
+          "Norm. citations": 3.6
+        }
+      },
+      {
+        "id": 6029,
+        "label": "Anderson (2001)",
+        "description": "<table><tr><td>Authors:</td><td>Daniel R. Anderson; Aletha C. Huston; Kelly L. Schmitt; Deborah L. Linebarger (and 1 others)</td></tr><tr><td>Title:</td><td>Abstract</td></tr><tr><td>Source:</td><td>Monographs of the Society for Research in Child Development</td></tr><tr><td>Year:</td><td>2001</td></tr></table>",
+        "url": "https://openalex.org/W1912875212",
+        "x": -0.3482,
+        "y": 1.7268,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 458.0,
+          "Norm. citations": 19.08
+        },
+        "scores": {
+          "Pub. year": 2001.0,
+          "Citations": 458.0,
+          "Norm. citations": 19.08
+        }
+      },
+      {
+        "id": 6139,
+        "label": "Tokunaga (2016)",
+        "description": "<table><tr><td>Authors:</td><td>Robert S. Tokunaga</td></tr><tr><td>Title:</td><td>An Examination of Functional Difficulties From Internet Use: Media Habit and Displacement Theory Explanations</td></tr><tr><td>Source:</td><td>Human Communication Research</td></tr><tr><td>Year:</td><td>2016</td></tr></table>",
+        "url": "https://openalex.org/W2308006885",
+        "x": 1.8471,
+        "y": -0.451,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 36.0,
+          "Citations": 61.0,
+          "Norm. citations": 6.78
+        },
+        "scores": {
+          "Pub. year": 2016.0,
+          "Citations": 61.0,
+          "Norm. citations": 6.78
+        }
+      },
+      {
+        "id": 6194,
+        "label": "Valkenburg (2007)",
+        "description": "<table><tr><td>Authors:</td><td>Patti M. Valkenburg; Jochen Peter</td></tr><tr><td>Title:</td><td>Online Communication and Adolescent Well-Being: Testing the Stimulation Versus the Displacement Hypothesis</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2007</td></tr></table>",
+        "url": "https://openalex.org/W2105323129",
+        "x": -0.0205,
+        "y": -0.3076,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 674.0,
+          "Norm. citations": 37.44
+        },
+        "scores": {
+          "Pub. year": 2007.0,
+          "Citations": 674.0,
+          "Norm. citations": 37.44
+        }
+      },
+      {
+        "id": 6206,
+        "label": "Lee (2009)",
+        "description": "<table><tr><td>Authors:</td><td>Sook Jung Lee</td></tr><tr><td>Title:</td><td>Online Communication and Adolescent Social Ties: Who benefits more from Internet use?</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2009</td></tr></table>",
+        "url": "https://openalex.org/W2048923439",
+        "x": 1.335,
+        "y": -0.8175,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 288.0,
+          "Norm. citations": 18.0
+        },
+        "scores": {
+          "Pub. year": 2009.0,
+          "Citations": 288.0,
+          "Norm. citations": 18.0
+        }
+      },
+      {
+        "id": 6492,
+        "label": "Vilhelmson (2008)",
+        "description": "<table><tr><td>Authors:</td><td>Bertil Vilhelmson; Eva Thulin</td></tr><tr><td>Title:</td><td>VIRTUAL MOBILITY, TIME USE AND THE PLACE OF THE HOME</td></tr><tr><td>Source:</td><td>Tijdschrift voor Economische en Sociale Geografie</td></tr><tr><td>Year:</td><td>2008</td></tr></table>",
+        "url": "https://openalex.org/W2122195235",
+        "x": 1.0918,
+        "y": 0.691,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 45.0,
+          "Norm. citations": 2.65
+        },
+        "scores": {
+          "Pub. year": 2008.0,
+          "Citations": 45.0,
+          "Norm. citations": 2.65
+        }
+      },
+      {
+        "id": 6696,
+        "label": "Dienlin (2017)",
+        "description": "<table><tr><td>Authors:</td><td>Tobias Dienlin; Philipp K. Masur; Sabine Trepte</td></tr><tr><td>Title:</td><td>Reinforcement or Displacement? The Reciprocity of FtF, IM, and SNS Communication and Their Effects on Loneliness and Life Satisfaction</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2017</td></tr></table>",
+        "url": "https://openalex.org/W2588594882",
+        "x": 0.141,
+        "y": -1.5263,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 176.0,
+          "Norm. citations": 22.0
+        },
+        "scores": {
+          "Pub. year": 2017.0,
+          "Citations": 176.0,
+          "Norm. citations": 22.0
+        }
+      },
+      {
+        "id": 7205,
+        "label": "Dimaggio (2001)",
+        "description": "<table><tr><td>Authors:</td><td>Paul DiMaggio; Eszter Hargittai; W. Russell Neuman; John P. Robinson</td></tr><tr><td>Title:</td><td>Social Implications of the Internet</td></tr><tr><td>Source:</td><td>Annual Review of Sociology</td></tr><tr><td>Year:</td><td>2001</td></tr></table>",
+        "url": "https://openalex.org/W2100347631",
+        "x": 0.9141,
+        "y": 0.4564,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 1985.0,
+          "Norm. citations": 82.71
+        },
+        "scores": {
+          "Pub. year": 2001.0,
+          "Citations": 1985.0,
+          "Norm. citations": 82.71
+        }
+      },
+      {
+        "id": 7299,
+        "label": "Twenge (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Jean M. Twenge</td></tr><tr><td>Title:</td><td>Increases in Depression, Self‐Harm, and Suicide Among U.S. Adolescents After 2012 and Links to Technology Use: Possible Mechanisms</td></tr><tr><td>Source:</td><td>Psychiatric Research and Clinical Practice</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3013433991",
+        "x": 0.9462,
+        "y": 0.6231,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 32.0,
+          "Citations": 164.0,
+          "Norm. citations": 32.8
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 164.0,
+          "Norm. citations": 32.8
+        }
+      },
+      {
+        "id": 7450,
+        "label": "Fomby (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Paula Fomby; Joshua A. Goode; Kim-Phuong Truong-Vu; Stefanie Mollborn</td></tr><tr><td>Title:</td><td>Adolescent Technology, Sleep, and Physical Activity Time in Two U.S. Cohorts</td></tr><tr><td>Source:</td><td>Youth &amp; Society</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2968530030",
+        "x": -0.4582,
+        "y": 1.0686,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 36.0,
+          "Norm. citations": 6.0
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 36.0,
+          "Norm. citations": 6.0
+        }
+      },
+      {
+        "id": 7487,
+        "label": "Shen (2010)",
+        "description": "<table><tr><td>Authors:</td><td>Cuihua Shen; Dmitri Williams</td></tr><tr><td>Title:</td><td>Unpacking Time Online: Connecting Internet and Massively Multiplayer Online Game Use With Psychosocial Well-Being</td></tr><tr><td>Source:</td><td>Communication Research</td></tr><tr><td>Year:</td><td>2010</td></tr></table>",
+        "url": "https://openalex.org/W2142585179",
+        "x": 1.3432,
+        "y": 1.7904,
+        "cluster": 1,
+        "weights": {
+          "Links": 5.0,
+          "Total link strength": 66.0,
+          "Citations": 223.0,
+          "Norm. citations": 14.87
+        },
+        "scores": {
+          "Pub. year": 2010.0,
+          "Citations": 223.0,
+          "Norm. citations": 14.87
+        }
+      },
+      {
+        "id": 7644,
+        "label": "Tammisalo (2022)",
+        "description": "<table><tr><td>Authors:</td><td>Kristiina Tammisalo; Anna Rotkirch</td></tr><tr><td>Title:</td><td>Effects of information and communication technology on the quality of family relationships: A systematic review</td></tr><tr><td>Source:</td><td>Journal of Social and Personal Relationships</td></tr><tr><td>Year:</td><td>2022</td></tr></table>",
+        "url": "https://openalex.org/W4280643742",
+        "x": 0.4896,
+        "y": 0.3813,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 34.0,
+          "Norm. citations": 11.33
+        },
+        "scores": {
+          "Pub. year": 2022.0,
+          "Citations": 34.0,
+          "Norm. citations": 11.33
+        }
+      },
+      {
+        "id": 7811,
+        "label": "Twenge (2019)",
+        "description": "<table><tr><td>Authors:</td><td>Jean M. Twenge</td></tr><tr><td>Title:</td><td>More Time on Technology, Less Happiness? Associations Between Digital-Media Use and Psychological Well-Being</td></tr><tr><td>Source:</td><td>Current Directions in Psychological Science</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+        "url": "https://openalex.org/W2945839590",
+        "x": 0.9635,
+        "y": 0.9271,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 30.0,
+          "Citations": 246.0,
+          "Norm. citations": 41.0
+        },
+        "scores": {
+          "Pub. year": 2019.0,
+          "Citations": 246.0,
+          "Norm. citations": 41.0
+        }
+      },
+      {
+        "id": 7991,
+        "label": "Cai (2005)",
+        "description": "<table><tr><td>Authors:</td><td>Xiaomei Cai</td></tr><tr><td>Title:</td><td>An experimental examination of the computer’s time displacement effects</td></tr><tr><td>Source:</td><td>New Media &amp; Society</td></tr><tr><td>Year:</td><td>2005</td></tr></table>",
+        "url": "https://openalex.org/W2100944347",
+        "x": -0.348,
+        "y": 1.6033,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 21.0,
+          "Norm. citations": 1.05
+        },
+        "scores": {
+          "Pub. year": 2005.0,
+          "Citations": 21.0,
+          "Norm. citations": 1.05
+        }
+      },
+      {
+        "id": 8061,
+        "label": "Vilhelmson (2017)",
+        "description": "<table><tr><td>Authors:</td><td>Bertil Vilhelmson; Erik Elldér; Eva Thulin</td></tr><tr><td>Title:</td><td>What did we do when the Internet wasn’t around? Variation in free-time activities among three young-adult cohorts from 1990/1991, 2000/2001, and 2010/2011</td></tr><tr><td>Source:</td><td>New Media &amp; Society</td></tr><tr><td>Year:</td><td>2017</td></tr></table>",
+        "url": "https://openalex.org/W2768984598",
+        "x": -0.6158,
+        "y": -1.4933,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 33.0,
+          "Citations": 38.0,
+          "Norm. citations": 4.75
+        },
+        "scores": {
+          "Pub. year": 2017.0,
+          "Citations": 38.0,
+          "Norm. citations": 4.75
+        }
+      },
+      {
+        "id": 8069,
+        "label": "Hall (2018)",
+        "description": "<table><tr><td>Authors:</td><td>Jeffrey A. Hall; Rebecca Johnson; Elaina M. Ross M. Ross</td></tr><tr><td>Title:</td><td>Where does the time go? An experimental test of what social media displaces and displaced activities’ associations with affective well-being and quality of day</td></tr><tr><td>Source:</td><td>New Media &amp; Society</td></tr><tr><td>Year:</td><td>2018</td></tr></table>",
+        "url": "https://openalex.org/W2897507543",
+        "x": 0.241,
+        "y": 1.0058,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 74.0,
+          "Norm. citations": 10.57
+        },
+        "scores": {
+          "Pub. year": 2018.0,
+          "Citations": 74.0,
+          "Norm. citations": 10.57
+        }
+      },
+      {
+        "id": 8074,
+        "label": "Liu (2020)",
+        "description": "<table><tr><td>Authors:</td><td>James H. Liu; Robert Jiqi Zhang; Roosevelt Vilar; Petar Milojev (and 4 others)</td></tr><tr><td>Title:</td><td>A typology of masspersonal information seeking repertoires (MISR): Global implications for political participation and subjective well-being</td></tr><tr><td>Source:</td><td>New Media &amp; Society</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3042060702",
+        "x": 1.8222,
+        "y": -0.179,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 12.0,
+          "Norm. citations": 2.4
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 12.0,
+          "Norm. citations": 2.4
+        }
+      },
+      {
+        "id": 8167,
+        "label": "Nowland (2017)",
+        "description": "<table><tr><td>Authors:</td><td>Rebecca Nowland; Elizabeth A. Necka; John T. Cacioppo</td></tr><tr><td>Title:</td><td>Loneliness and Social Internet Use: Pathways to Reconnection in a Digital World?</td></tr><tr><td>Source:</td><td>Perspectives on Psychological Science</td></tr><tr><td>Year:</td><td>2017</td></tr></table>",
+        "url": "https://openalex.org/W2759646500",
+        "x": -0.9866,
+        "y": 0.1825,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 31.0,
+          "Citations": 567.0,
+          "Norm. citations": 70.88
+        },
+        "scores": {
+          "Pub. year": 2017.0,
+          "Citations": 567.0,
+          "Norm. citations": 70.88
+        }
+      },
+      {
+        "id": 8189,
+        "label": "Westlund (2014)",
+        "description": "<table><tr><td>Authors:</td><td>Oscar Westlund; Mathias A. Färdigh</td></tr><tr><td>Title:</td><td>Accessing the news in an age of mobile media: Tracing displacing and complementary effects of mobile news on newspapers and online news</td></tr><tr><td>Source:</td><td>Mobile Media &amp; Communication</td></tr><tr><td>Year:</td><td>2014</td></tr></table>",
+        "url": "https://openalex.org/W2083184971",
+        "x": -0.8666,
+        "y": -0.752,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 72.0,
+          "Norm. citations": 6.55
+        },
+        "scores": {
+          "Pub. year": 2014.0,
+          "Citations": 72.0,
+          "Norm. citations": 6.55
+        }
+      },
+      {
+        "id": 8190,
+        "label": "Chan (2015)",
+        "description": "<table><tr><td>Authors:</td><td>Michael Chan</td></tr><tr><td>Title:</td><td>Examining the influences of news use patterns, motivations, and age cohort on mobile news use: The case of Hong Kong</td></tr><tr><td>Source:</td><td>Mobile Media &amp; Communication</td></tr><tr><td>Year:</td><td>2015</td></tr></table>",
+        "url": "https://openalex.org/W2166473378",
+        "x": -0.1297,
+        "y": 1.6524,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 58.0,
+          "Norm. citations": 5.8
+        },
+        "scores": {
+          "Pub. year": 2015.0,
+          "Citations": 58.0,
+          "Norm. citations": 5.8
+        }
+      },
+      {
+        "id": 8248,
+        "label": "Twenge (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Jean M. Twenge; Thomas E. Joiner; Megan L. Rogers; Gabrielle N. Martin</td></tr><tr><td>Title:</td><td>Considering All of the Data on Digital-Media Use and Depressive Symptoms: Response to Ophir, Lipshits-Braziler, and Rosenberg (2020)</td></tr><tr><td>Source:</td><td>Clinical Psychological Science</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3007384257",
+        "x": -0.0929,
+        "y": 0.0226,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 26.0,
+          "Citations": 10.0,
+          "Norm. citations": 2.0
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 10.0,
+          "Norm. citations": 2.0
+        }
+      },
+      {
+        "id": 8305,
+        "label": "Straker (2009)",
+        "description": "<table><tr><td>Authors:</td><td>Leon Straker; Rebecca Abbott; Jan P. Piek; Clare Pollock (and 2 others)</td></tr><tr><td>Title:</td><td>Rationale, design and methods for a randomised and controlled trial to investigate whether home access to electronic games decreases children's physical activity</td></tr><tr><td>Source:</td><td>BMC Public Health</td></tr><tr><td>Year:</td><td>2009</td></tr></table>",
+        "url": "https://openalex.org/W2037307620",
+        "x": -0.6284,
+        "y": 1.207,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 14.0,
+          "Citations": 9.0,
+          "Norm. citations": 0.56
+        },
+        "scores": {
+          "Pub. year": 2009.0,
+          "Citations": 9.0,
+          "Norm. citations": 0.56
+        }
+      },
+      {
+        "id": 8347,
+        "label": "Melkevik (2010)",
+        "description": "<table><tr><td>Authors:</td><td>Ole Melkevik; Torbjørn Torsheim; Ronald J. Iannotti; Bente Wold</td></tr><tr><td>Title:</td><td>Is spending time in screen-based sedentary behaviors associated with less physical activity: a cross national investigation</td></tr><tr><td>Source:</td><td>International Journal of Behavioral Nutrition and Physical Activity</td></tr><tr><td>Year:</td><td>2010</td></tr></table>",
+        "url": "https://openalex.org/W2004671638",
+        "x": -0.098,
+        "y": -1.2499,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 11.0,
+          "Citations": 196.0,
+          "Norm. citations": 13.07
+        },
+        "scores": {
+          "Pub. year": 2010.0,
+          "Citations": 196.0,
+          "Norm. citations": 13.07
+        }
+      },
+      {
+        "id": 8353,
+        "label": "Loucaides (2011)",
+        "description": "<table><tr><td>Authors:</td><td>Constantinos A. Loucaides; Russell Jago; Μαρία Θεοφάνους</td></tr><tr><td>Title:</td><td>Physical activity and sedentary behaviours in Greek-Cypriot children and adolescents: a cross-sectional study</td></tr><tr><td>Source:</td><td>International Journal of Behavioral Nutrition and Physical Activity</td></tr><tr><td>Year:</td><td>2011</td></tr></table>",
+        "url": "https://openalex.org/W2114305026",
+        "x": 0.8043,
+        "y": -0.738,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 50.0,
+          "Norm. citations": 3.57
+        },
+        "scores": {
+          "Pub. year": 2011.0,
+          "Citations": 50.0,
+          "Norm. citations": 3.57
+        }
+      },
+      {
+        "id": 8646,
+        "label": "Williams (2006)",
+        "description": "<table><tr><td>Authors:</td><td>Dmitri Williams</td></tr><tr><td>Title:</td><td>Groups and Goblins: The Social and Civic Impact of an Online Game</td></tr><tr><td>Source:</td><td>Journal of Broadcasting &amp; Electronic Media</td></tr><tr><td>Year:</td><td>2006</td></tr></table>",
+        "url": "https://openalex.org/W2021445655",
+        "x": -0.4526,
+        "y": 0.8703,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 31.0,
+          "Citations": 146.0,
+          "Norm. citations": 7.68
+        },
+        "scores": {
+          "Pub. year": 2006.0,
+          "Citations": 146.0,
+          "Norm. citations": 7.68
+        }
+      },
+      {
+        "id": 8866,
+        "label": "Hokby (2025)",
+        "description": "<table><tr><td>Authors:</td><td>Sebastian Hökby; Jesper Alvarsson; Joakim Westerlund; Vladimir Carli (and 1 others)</td></tr><tr><td>Title:</td><td>Adolescents’ screen time displaces multiple sleep pathways and elevates depressive symptoms over twelve months</td></tr><tr><td>Source:</td><td>PLOS Global Public Health</td></tr><tr><td>Year:</td><td>2025</td></tr></table>",
+        "url": "https://openalex.org/W4409097211",
+        "x": -1.1447,
+        "y": 0.1983,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 2.0,
+          "Norm. citations": 2.0
+        },
+        "scores": {
+          "Pub. year": 2025.0,
+          "Citations": 2.0,
+          "Norm. citations": 2.0
+        }
+      },
+      {
+        "id": 8876,
+        "label": "Serrano (2011)",
+        "description": "<table><tr><td>Authors:</td><td>José Antonio Serrano; Sara Martí-Trujillo; Angela Lera-Navarro; Cecilia Dorado (and 2 others)</td></tr><tr><td>Title:</td><td>Associations between Screen Time and Physical Activity among Spanish Adolescents</td></tr><tr><td>Source:</td><td>PLoS ONE</td></tr><tr><td>Year:</td><td>2011</td></tr></table>",
+        "url": "https://openalex.org/W1982732820",
+        "x": -1.0549,
+        "y": 0.6724,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 34.0,
+          "Citations": 93.0,
+          "Norm. citations": 6.64
+        },
+        "scores": {
+          "Pub. year": 2011.0,
+          "Citations": 93.0,
+          "Norm. citations": 6.64
+        }
+      },
+      {
+        "id": 9053,
+        "label": "Fairlie (2015)",
+        "description": "<table><tr><td>Authors:</td><td>Robert W. Fairlie</td></tr><tr><td>Title:</td><td>Do Boys and Girls Use Computers Differently, and Does It Contribute to Why Boys do Worse in School Than Girls?</td></tr><tr><td>Source:</td><td>The B E Journal of Economic Analysis &amp; Policy</td></tr><tr><td>Year:</td><td>2015</td></tr></table>",
+        "url": "https://openalex.org/W3121187400",
+        "x": -0.2646,
+        "y": 1.5333,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 13.0,
+          "Norm. citations": 1.3
+        },
+        "scores": {
+          "Pub. year": 2015.0,
+          "Citations": 13.0,
+          "Norm. citations": 1.3
+        }
+      },
+      {
+        "id": 9207,
+        "label": "Strasburger (2011)",
+        "description": "<table><tr><td>Authors:</td><td>Victor C. Strasburger; Deborah Ann Mulligan; Tanya Remer Altmann; Ari Brown (and 17 others)</td></tr><tr><td>Title:</td><td>Children, Adolescents, Obesity, and the Media</td></tr><tr><td>Source:</td><td>PEDIATRICS</td></tr><tr><td>Year:</td><td>2011</td></tr></table>",
+        "url": "https://openalex.org/W2130861092",
+        "x": -0.3062,
+        "y": 0.518,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 328.0,
+          "Norm. citations": 23.43
+        },
+        "scores": {
+          "Pub. year": 2011.0,
+          "Citations": 328.0,
+          "Norm. citations": 23.43
+        }
+      },
+      {
+        "id": 10135,
+        "label": "Shin (2004)",
+        "description": "<table><tr><td>Authors:</td><td>Nary Shin</td></tr><tr><td>Title:</td><td>Exploring Pathways From Television Viewing to Academic Achievement in School Age Children</td></tr><tr><td>Source:</td><td>The Journal of Genetic Psychology</td></tr><tr><td>Year:</td><td>2004</td></tr></table>",
+        "url": "https://openalex.org/W2002874583",
+        "x": 1.3523,
+        "y": -0.6883,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 12.0,
+          "Citations": 108.0,
+          "Norm. citations": 5.14
+        },
+        "scores": {
+          "Pub. year": 2004.0,
+          "Citations": 108.0,
+          "Norm. citations": 5.14
+        }
+      },
+      {
+        "id": 10242,
+        "label": "Dore (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Rebecca A. Dore; Jessica A. R. Logan; Tzu‐Jung Lin; Kelly M. Purtell (and 1 others)</td></tr><tr><td>Title:</td><td>Associations Between Children’s Media Use and Language and Literacy Skills</td></tr><tr><td>Source:</td><td>Frontiers in Psychology</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3047505767",
+        "x": 1.9514,
+        "y": 1.5395,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 33.0,
+          "Norm. citations": 6.6
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 33.0,
+          "Norm. citations": 6.6
+        }
+      },
+      {
+        "id": 10244,
+        "label": "Dore (2020)",
+        "description": "<table><tr><td>Authors:</td><td>Rebecca A. Dore; Jessica A. R. Logan; Tzu‐Jung Lin; Kelly M. Purtell (and 1 others)</td></tr><tr><td>Title:</td><td>Characteristics of Children’s Media Use and Gains in Language and Literacy Skills</td></tr><tr><td>Source:</td><td>Frontiers in Psychology</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+        "url": "https://openalex.org/W3083842691",
+        "x": 0.471,
+        "y": 0.3784,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 30.0,
+          "Norm. citations": 6.0
+        },
+        "scores": {
+          "Pub. year": 2020.0,
+          "Citations": 30.0,
+          "Norm. citations": 6.0
+        }
+      },
+      {
+        "id": 10383,
+        "label": "Throuvala (2021)",
+        "description": "<table><tr><td>Authors:</td><td>Melina A. Throuvala; Mark D. Griffiths; Mike Rennoldson; Daria J. Kuss</td></tr><tr><td>Title:</td><td>Perceived Challenges and Online Harms from Social Media Use on a Severity Continuum: A Qualitative Psychological Stakeholder Perspective</td></tr><tr><td>Source:</td><td>International Journal of Environmental Research and Public Health</td></tr><tr><td>Year:</td><td>2021</td></tr></table>",
+        "url": "https://openalex.org/W3137580257",
+        "x": -1.737,
+        "y": 0.1546,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 28.0,
+          "Citations": 26.0,
+          "Norm. citations": 6.5
+        },
+        "scores": {
+          "Pub. year": 2021.0,
+          "Citations": 26.0,
+          "Norm. citations": 6.5
+        }
+      },
+      {
+        "id": 10385,
+        "label": "Throuvala (2021)",
+        "description": "<table><tr><td>Authors:</td><td>Melina A. Throuvala; Mark D. Griffiths; Mike Rennoldson; Daria J. Kuss</td></tr><tr><td>Title:</td><td>Policy Recommendations for Preventing Problematic Internet Use in Schools: A Qualitative Study of Parental Perspectives</td></tr><tr><td>Source:</td><td>International Journal of Environmental Research and Public Health</td></tr><tr><td>Year:</td><td>2021</td></tr></table>",
+        "url": "https://openalex.org/W3159271901",
+        "x": 0.2372,
+        "y": -1.8092,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 28.0,
+          "Citations": 28.0,
+          "Norm. citations": 7.0
+        },
+        "scores": {
+          "Pub. year": 2021.0,
+          "Citations": 28.0,
+          "Norm. citations": 7.0
+        }
+      },
+      {
+        "id": 10403,
+        "label": "Hokby (2023)",
+        "description": "<table><tr><td>Authors:</td><td>Sebastian Hökby; Joakim Westerlund; Jesper Alvarsson; Vladimir Carli (and 1 others)</td></tr><tr><td>Title:</td><td>Longitudinal Effects of Screen Time on Depressive Symptoms among Swedish Adolescents: The Moderating and Mediating Role of Coping Engagement Behavior</td></tr><tr><td>Source:</td><td>International Journal of Environmental Research and Public Health</td></tr><tr><td>Year:</td><td>2023</td></tr></table>",
+        "url": "https://openalex.org/W4321458454",
+        "x": 0.2226,
+        "y": -1.1675,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 5.0,
+          "Norm. citations": 2.5
+        },
+        "scores": {
+          "Pub. year": 2023.0,
+          "Citations": 5.0,
+          "Norm. citations": 2.5
+        }
+      },
+      {
+        "id": 10495,
+        "label": "Robinson (2012)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson</td></tr><tr><td>Title:</td><td>IT Use and Social/Media Time Displacement</td></tr><tr><td>Source:</td><td>IGI Global eBooks</td></tr><tr><td>Year:</td><td>2012</td></tr></table>",
+        "url": "https://openalex.org/W2504881710",
+        "x": -1.237,
+        "y": -0.5745,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 44.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        },
+        "scores": {
+          "Pub. year": 2012.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        }
+      }
+    ],
+    "links": [
+      {
+        "source_id": 4723,
+        "target_id": 903,
+        "strength": 18.0
+      },
+      {
+        "source_id": 4723,
+        "target_id": 10495,
+        "strength": 15.0
+      },
+      {
+        "source_id": 4723,
+        "target_id": 7991,
+        "strength": 10.0
+      },
+      {
+        "source_id": 4723,
+        "target_id": 895,
+        "strength": 15.0
+      },
+      {
+        "source_id": 2648,
+        "target_id": 500,
+        "strength": 17.0
+      },
+      {
+        "source_id": 2648,
+        "target_id": 1043,
+        "strength": 19.0
+      },
+      {
+        "source_id": 2648,
+        "target_id": 2572,
+        "strength": 11.0
+      },
+      {
+        "source_id": 2648,
+        "target_id": 5678,
+        "strength": 10.0
+      },
+      {
+        "source_id": 2648,
+        "target_id": 2461,
+        "strength": 21.0
+      },
+      {
+        "source_id": 500,
+        "target_id": 1043,
+        "strength": 11.0
+      },
+      {
+        "source_id": 500,
+        "target_id": 2572,
+        "strength": 10.0
+      },
+      {
+        "source_id": 500,
+        "target_id": 2461,
+        "strength": 10.0
+      },
+      {
+        "source_id": 8646,
+        "target_id": 5216,
+        "strength": 15.0
+      },
+      {
+        "source_id": 8646,
+        "target_id": 7487,
+        "strength": 16.0
+      },
+      {
+        "source_id": 903,
+        "target_id": 10495,
+        "strength": 17.0
+      },
+      {
+        "source_id": 903,
+        "target_id": 895,
+        "strength": 17.0
+      },
+      {
+        "source_id": 1946,
+        "target_id": 9053,
+        "strength": 12.0
+      },
+      {
+        "source_id": 998,
+        "target_id": 7450,
+        "strength": 11.0
+      },
+      {
+        "source_id": 1594,
+        "target_id": 2735,
+        "strength": 15.0
+      },
+      {
+        "source_id": 1043,
+        "target_id": 5678,
+        "strength": 12.0
+      },
+      {
+        "source_id": 1043,
+        "target_id": 2461,
+        "strength": 20.0
+      },
+      {
+        "source_id": 4840,
+        "target_id": 8074,
+        "strength": 10.0
+      },
+      {
+        "source_id": 8190,
+        "target_id": 8189,
+        "strength": 11.0
+      },
+      {
+        "source_id": 10495,
+        "target_id": 895,
+        "strength": 12.0
+      },
+      {
+        "source_id": 10383,
+        "target_id": 10385,
+        "strength": 28.0
+      },
+      {
+        "source_id": 4127,
+        "target_id": 8305,
+        "strength": 14.0
+      },
+      {
+        "source_id": 10242,
+        "target_id": 10244,
+        "strength": 13.0
+      },
+      {
+        "source_id": 1563,
+        "target_id": 1557,
+        "strength": 25.0
+      },
+      {
+        "source_id": 1563,
+        "target_id": 7487,
+        "strength": 16.0
+      },
+      {
+        "source_id": 1563,
+        "target_id": 1631,
+        "strength": 10.0
+      },
+      {
+        "source_id": 1563,
+        "target_id": 4837,
+        "strength": 10.0
+      },
+      {
+        "source_id": 4746,
+        "target_id": 8167,
+        "strength": 10.0
+      },
+      {
+        "source_id": 4746,
+        "target_id": 8069,
+        "strength": 10.0
+      },
+      {
+        "source_id": 321,
+        "target_id": 7644,
+        "strength": 13.0
+      },
+      {
+        "source_id": 8167,
+        "target_id": 4231,
+        "strength": 10.0
+      },
+      {
+        "source_id": 8167,
+        "target_id": 6139,
+        "strength": 11.0
+      },
+      {
+        "source_id": 2572,
+        "target_id": 5678,
+        "strength": 10.0
+      },
+      {
+        "source_id": 1557,
+        "target_id": 1631,
+        "strength": 12.0
+      },
+      {
+        "source_id": 1557,
+        "target_id": 4837,
+        "strength": 12.0
+      },
+      {
+        "source_id": 2870,
+        "target_id": 2411,
+        "strength": 13.0
+      },
+      {
+        "source_id": 7811,
+        "target_id": 7299,
+        "strength": 18.0
+      },
+      {
+        "source_id": 7811,
+        "target_id": 8248,
+        "strength": 12.0
+      },
+      {
+        "source_id": 3828,
+        "target_id": 3051,
+        "strength": 15.0
+      },
+      {
+        "source_id": 4231,
+        "target_id": 6139,
+        "strength": 14.0
+      },
+      {
+        "source_id": 2747,
+        "target_id": 7487,
+        "strength": 11.0
+      },
+      {
+        "source_id": 2747,
+        "target_id": 4837,
+        "strength": 10.0
+      },
+      {
+        "source_id": 10135,
+        "target_id": 6029,
+        "strength": 12.0
+      },
+      {
+        "source_id": 6696,
+        "target_id": 5542,
+        "strength": 11.0
+      },
+      {
+        "source_id": 6492,
+        "target_id": 1989,
+        "strength": 10.0
+      },
+      {
+        "source_id": 7299,
+        "target_id": 8248,
+        "strength": 14.0
+      },
+      {
+        "source_id": 8061,
+        "target_id": 4741,
+        "strength": 14.0
+      },
+      {
+        "source_id": 8061,
+        "target_id": 1989,
+        "strength": 19.0
+      },
+      {
+        "source_id": 4741,
+        "target_id": 1989,
+        "strength": 21.0
+      },
+      {
+        "source_id": 6206,
+        "target_id": 6194,
+        "strength": 11.0
+      },
+      {
+        "source_id": 5678,
+        "target_id": 2461,
+        "strength": 12.0
+      },
+      {
+        "source_id": 6139,
+        "target_id": 7487,
+        "strength": 11.0
+      },
+      {
+        "source_id": 9207,
+        "target_id": 2411,
+        "strength": 12.0
+      },
+      {
+        "source_id": 10403,
+        "target_id": 8866,
+        "strength": 10.0
+      },
+      {
+        "source_id": 5216,
+        "target_id": 7205,
+        "strength": 10.0
+      },
+      {
+        "source_id": 8876,
+        "target_id": 2411,
+        "strength": 11.0
+      },
+      {
+        "source_id": 8876,
+        "target_id": 8347,
+        "strength": 11.0
+      },
+      {
+        "source_id": 8876,
+        "target_id": 8353,
+        "strength": 12.0
+      },
+      {
+        "source_id": 254,
+        "target_id": 2411,
+        "strength": 15.0
+      },
+      {
+        "source_id": 7487,
+        "target_id": 4837,
+        "strength": 12.0
+      }
+    ]
+  }
+}

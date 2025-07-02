@@ -1,0 +1,83 @@
+{
+  "network": {
+    "items": [
+      {
+        "id": 4,
+        "label": "Unknown (unknown)",
+        "description": "<table><tr><td>Authors:</td><td>Unknown</td></tr><tr><td>Title:</td><td>Unknown Title</td></tr><tr><td>Source:</td><td>Unknown Source</td></tr><tr><td>Year:</td><td>Unknown</td></tr></table>",
+        "url": "",
+        "x": 0.0,
+        "y": 0.0,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 4.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        },
+        "scores": {
+          "Pub. year": 0.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        }
+      },
+      {
+        "id": 5,
+        "label": "Unknown (unknown)",
+        "description": "<table><tr><td>Authors:</td><td>Unknown</td></tr><tr><td>Title:</td><td>Unknown Title</td></tr><tr><td>Source:</td><td>Unknown Source</td></tr><tr><td>Year:</td><td>Unknown</td></tr></table>",
+        "url": "",
+        "x": 0.0,
+        "y": 0.0,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 4.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        },
+        "scores": {
+          "Pub. year": 0.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        }
+      },
+      {
+        "id": 6,
+        "label": "Unknown (unknown)",
+        "description": "<table><tr><td>Authors:</td><td>Unknown</td></tr><tr><td>Title:</td><td>Unknown Title</td></tr><tr><td>Source:</td><td>Unknown Source</td></tr><tr><td>Year:</td><td>Unknown</td></tr></table>",
+        "url": "",
+        "x": 0.0,
+        "y": 0.0,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 4.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        },
+        "scores": {
+          "Pub. year": 0.0,
+          "Citations": 0.0,
+          "Norm. citations": 0.0
+        }
+      }
+    ],
+    "links": [
+      {
+        "source_id": 4,
+        "target_id": 5,
+        "strength": 2.0
+      },
+      {
+        "source_id": 4,
+        "target_id": 6,
+        "strength": 2.0
+      },
+      {
+        "source_id": 5,
+        "target_id": 6,
+        "strength": 2.0
+      }
+    ]
+  }
+}

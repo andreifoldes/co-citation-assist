@@ -1,0 +1,378 @@
+{
+  "network": {
+    "items": [
+      {
+        "id": 2411,
+        "label": "Rey-lopez (2007)",
+        "description": "<table><tr><td>Authors:</td><td>Juan Pablo Rey-López; Germán Vicente‐Rodríguez; Mireia Biosca; Luís A. Moreno</td></tr><tr><td>Title:</td><td>Sedentary behaviour and obesity development in children and adolescents</td></tr><tr><td>Source:</td><td>Nutrition Metabolism and Cardiovascular Diseases</td></tr><tr><td>Year:</td><td>2007</td></tr></table>",
+        "url": "https://openalex.org/W2005615569",
+        "x": -0.3858,
+        "y": -1.6475,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 571.0,
+          "Norm. citations": 31.72
+        },
+        "scores": {
+          "Pub. year": 2007.0,
+          "Citations": 571.0,
+          "Norm. citations": 31.72
+        }
+      },
+      {
+        "id": 3364,
+        "label": "Huston (1999)",
+        "description": "<table><tr><td>Authors:</td><td>Aletha C. Huston; John C. Wright; Janet Marquis; Samuel B. Green</td></tr><tr><td>Title:</td><td>How young children spend their time: Television and other activities.</td></tr><tr><td>Source:</td><td>Developmental Psychology</td></tr><tr><td>Year:</td><td>1999</td></tr></table>",
+        "url": "https://openalex.org/W4242247247",
+        "x": 1.6439,
+        "y": 1.3377,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 26.0,
+          "Citations": 193.0,
+          "Norm. citations": 7.42
+        },
+        "scores": {
+          "Pub. year": 1999.0,
+          "Citations": 193.0,
+          "Norm. citations": 7.42
+        }
+      },
+      {
+        "id": 5983,
+        "label": "Mesch (2001)",
+        "description": "<table><tr><td>Authors:</td><td>Gustavo S. Mesch</td></tr><tr><td>Title:</td><td>Social Relationships and Internet Use among Adolescents in Israel</td></tr><tr><td>Source:</td><td>Social Science Quarterly</td></tr><tr><td>Year:</td><td>2001</td></tr></table>",
+        "url": "https://openalex.org/W2156936752",
+        "x": -1.5999,
+        "y": -0.0065,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 147.0,
+          "Norm. citations": 6.12
+        },
+        "scores": {
+          "Pub. year": 2001.0,
+          "Citations": 147.0,
+          "Norm. citations": 6.12
+        }
+      },
+      {
+        "id": 6029,
+        "label": "Anderson (2001)",
+        "description": "<table><tr><td>Authors:</td><td>Daniel R. Anderson; Aletha C. Huston; Kelly L. Schmitt; Deborah L. Linebarger (and 1 others)</td></tr><tr><td>Title:</td><td>Abstract</td></tr><tr><td>Source:</td><td>Monographs of the Society for Research in Child Development</td></tr><tr><td>Year:</td><td>2001</td></tr></table>",
+        "url": "https://openalex.org/W1912875212",
+        "x": 0.2346,
+        "y": -0.8701,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 16.0,
+          "Citations": 458.0,
+          "Norm. citations": 19.08
+        },
+        "scores": {
+          "Pub. year": 2001.0,
+          "Citations": 458.0,
+          "Norm. citations": 19.08
+        }
+      },
+      {
+        "id": 6194,
+        "label": "Valkenburg (2007)",
+        "description": "<table><tr><td>Authors:</td><td>Patti M. Valkenburg; Jochen Peter</td></tr><tr><td>Title:</td><td>Online Communication and Adolescent Well-Being: Testing the Stimulation Versus the Displacement Hypothesis</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2007</td></tr></table>",
+        "url": "https://openalex.org/W2105323129",
+        "x": -0.357,
+        "y": 1.4591,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 23.0,
+          "Citations": 674.0,
+          "Norm. citations": 37.44
+        },
+        "scores": {
+          "Pub. year": 2007.0,
+          "Citations": 674.0,
+          "Norm. citations": 37.44
+        }
+      },
+      {
+        "id": 6206,
+        "label": "Lee (2009)",
+        "description": "<table><tr><td>Authors:</td><td>Sook Jung Lee</td></tr><tr><td>Title:</td><td>Online Communication and Adolescent Social Ties: Who benefits more from Internet use?</td></tr><tr><td>Source:</td><td>Journal of Computer-Mediated Communication</td></tr><tr><td>Year:</td><td>2009</td></tr></table>",
+        "url": "https://openalex.org/W2048923439",
+        "x": 0.7441,
+        "y": 1.881,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 13.0,
+          "Citations": 288.0,
+          "Norm. citations": 18.0
+        },
+        "scores": {
+          "Pub. year": 2009.0,
+          "Citations": 288.0,
+          "Norm. citations": 18.0
+        }
+      },
+      {
+        "id": 7468,
+        "label": "Dimmick (2000)",
+        "description": "<table><tr><td>Authors:</td><td>John Dimmick; Susan L. Kline; Laura Stafford</td></tr><tr><td>Title:</td><td>The Gratification Niches of Personal E-mail and the Telephone</td></tr><tr><td>Source:</td><td>Communication Research</td></tr><tr><td>Year:</td><td>2000</td></tr></table>",
+        "url": "https://openalex.org/W2034880228",
+        "x": 1.8042,
+        "y": 1.895,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 54.0,
+          "Citations": 387.0,
+          "Norm. citations": 15.48
+        },
+        "scores": {
+          "Pub. year": 2000.0,
+          "Citations": 387.0,
+          "Norm. citations": 15.48
+        }
+      },
+      {
+        "id": 7483,
+        "label": "Ramirez (2008)",
+        "description": "<table><tr><td>Authors:</td><td>Artemio Ramirez; John Dimmick; John Christian Feaster; Shu‐Fang Lin</td></tr><tr><td>Title:</td><td>Revisiting Interpersonal Media Competition</td></tr><tr><td>Source:</td><td>Communication Research</td></tr><tr><td>Year:</td><td>2008</td></tr></table>",
+        "url": "https://openalex.org/W2069197294",
+        "x": 0.444,
+        "y": 1.0159,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 28.0,
+          "Citations": 173.0,
+          "Norm. citations": 10.18
+        },
+        "scores": {
+          "Pub. year": 2008.0,
+          "Citations": 173.0,
+          "Norm. citations": 10.18
+        }
+      },
+      {
+        "id": 7537,
+        "label": "Mutz (1993)",
+        "description": "<table><tr><td>Authors:</td><td>Diana C. Mutz; Donald F. Roberts; Detlef P. van Vuuren</td></tr><tr><td>Title:</td><td>Reconsidering the Displacement Hypothesis</td></tr><tr><td>Source:</td><td>Communication Research</td></tr><tr><td>Year:</td><td>1993</td></tr></table>",
+        "url": "https://openalex.org/W2150435366",
+        "x": 1.7317,
+        "y": -1.7905,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 20.0,
+          "Citations": 167.0,
+          "Norm. citations": 5.22
+        },
+        "scores": {
+          "Pub. year": 1993.0,
+          "Citations": 167.0,
+          "Norm. citations": 5.22
+        }
+      },
+      {
+        "id": 7743,
+        "label": "Robinson (2000)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson; Meyer Kestnbaum; Alan Neustadtl; Anthony S. Alvarez</td></tr><tr><td>Title:</td><td>Mass Media Use and Social Life Among Internet Users</td></tr><tr><td>Source:</td><td>Social Science Computer Review</td></tr><tr><td>Year:</td><td>2000</td></tr></table>",
+        "url": "https://openalex.org/W2161334354",
+        "x": -0.3258,
+        "y": 0.8744,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 20.0,
+          "Citations": 155.0,
+          "Norm. citations": 6.2
+        },
+        "scores": {
+          "Pub. year": 2000.0,
+          "Citations": 155.0,
+          "Norm. citations": 6.2
+        }
+      },
+      {
+        "id": 7767,
+        "label": "Robinson (1997)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson; Kevin Barth; Andrew Kohut</td></tr><tr><td>Title:</td><td>Social Impact Research</td></tr><tr><td>Source:</td><td>Social Science Computer Review</td></tr><tr><td>Year:</td><td>1997</td></tr></table>",
+        "url": "https://openalex.org/W1976165340",
+        "x": 1.2227,
+        "y": -1.0739,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 22.0,
+          "Citations": 82.0,
+          "Norm. citations": 2.93
+        },
+        "scores": {
+          "Pub. year": 1997.0,
+          "Citations": 82.0,
+          "Norm. citations": 2.93
+        }
+      },
+      {
+        "id": 7768,
+        "label": "Robinson (1999)",
+        "description": "<table><tr><td>Authors:</td><td>John P. Robinson; Meyer Kestnbaum</td></tr><tr><td>Title:</td><td>The Personal Computer, Culture, and Other Uses of Free Time</td></tr><tr><td>Source:</td><td>Social Science Computer Review</td></tr><tr><td>Year:</td><td>1999</td></tr></table>",
+        "url": "https://openalex.org/W2009119054",
+        "x": -0.2386,
+        "y": -0.0933,
+        "cluster": 1,
+        "weights": {
+          "Links": 2.0,
+          "Total link strength": 22.0,
+          "Citations": 71.0,
+          "Norm. citations": 2.73
+        },
+        "scores": {
+          "Pub. year": 1999.0,
+          "Citations": 71.0,
+          "Norm. citations": 2.73
+        }
+      },
+      {
+        "id": 8098,
+        "label": "Biddle (2004)",
+        "description": "<table><tr><td>Authors:</td><td>Stuart Biddle; Trish Gorely; Simon J. Marshall; Ian Murdey (and 1 others)</td></tr><tr><td>Title:</td><td>Physical activity and sedentary behaviours in youth: issues and controversies</td></tr><tr><td>Source:</td><td>The Journal of the Royal Society for the Promotion of Health</td></tr><tr><td>Year:</td><td>2004</td></tr></table>",
+        "url": "https://openalex.org/W2017794399",
+        "x": -1.5264,
+        "y": -1.6149,
+        "cluster": 1,
+        "weights": {
+          "Links": 1.0,
+          "Total link strength": 10.0,
+          "Citations": 360.0,
+          "Norm. citations": 17.14
+        },
+        "scores": {
+          "Pub. year": 2004.0,
+          "Citations": 360.0,
+          "Norm. citations": 17.14
+        }
+      },
+      {
+        "id": 8573,
+        "label": "Dimmick (2004)",
+        "description": "<table><tr><td>Authors:</td><td>John Dimmick; Yan Chen; Zhan Li</td></tr><tr><td>Title:</td><td>Competition Between the Internet and Traditional News Media: The Gratification-Opportunities Niche Dimension</td></tr><tr><td>Source:</td><td>Journal of Media Economics</td></tr><tr><td>Year:</td><td>2004</td></tr></table>",
+        "url": "https://openalex.org/W2020427224",
+        "x": 1.9738,
+        "y": -1.9415,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 41.0,
+          "Citations": 417.0,
+          "Norm. citations": 19.86
+        },
+        "scores": {
+          "Pub. year": 2004.0,
+          "Citations": 417.0,
+          "Norm. citations": 19.86
+        }
+      },
+      {
+        "id": 8624,
+        "label": "Kayany (2000)",
+        "description": "<table><tr><td>Authors:</td><td>Joseph M. Kayany; Paul Yelsma</td></tr><tr><td>Title:</td><td>Displacement Effects of Online Media in the Socio-Technical Contexts of Households</td></tr><tr><td>Source:</td><td>Journal of Broadcasting &amp; Electronic Media</td></tr><tr><td>Year:</td><td>2000</td></tr></table>",
+        "url": "https://openalex.org/W1997876854",
+        "x": 1.0278,
+        "y": 0.7084,
+        "cluster": 1,
+        "weights": {
+          "Links": 3.0,
+          "Total link strength": 37.0,
+          "Citations": 228.0,
+          "Norm. citations": 9.12
+        },
+        "scores": {
+          "Pub. year": 2000.0,
+          "Citations": 228.0,
+          "Norm. citations": 9.12
+        }
+      }
+    ],
+    "links": [
+      {
+        "source_id": 7468,
+        "target_id": 8624,
+        "strength": 16.0
+      },
+      {
+        "source_id": 7468,
+        "target_id": 7483,
+        "strength": 18.0
+      },
+      {
+        "source_id": 7468,
+        "target_id": 8573,
+        "strength": 20.0
+      },
+      {
+        "source_id": 7537,
+        "target_id": 8624,
+        "strength": 10.0
+      },
+      {
+        "source_id": 7537,
+        "target_id": 3364,
+        "strength": 10.0
+      },
+      {
+        "source_id": 7767,
+        "target_id": 7743,
+        "strength": 10.0
+      },
+      {
+        "source_id": 7767,
+        "target_id": 7768,
+        "strength": 12.0
+      },
+      {
+        "source_id": 5983,
+        "target_id": 6194,
+        "strength": 10.0
+      },
+      {
+        "source_id": 8624,
+        "target_id": 8573,
+        "strength": 11.0
+      },
+      {
+        "source_id": 8098,
+        "target_id": 2411,
+        "strength": 10.0
+      },
+      {
+        "source_id": 7743,
+        "target_id": 7768,
+        "strength": 10.0
+      },
+      {
+        "source_id": 6206,
+        "target_id": 6194,
+        "strength": 13.0
+      },
+      {
+        "source_id": 7483,
+        "target_id": 8573,
+        "strength": 10.0
+      },
+      {
+        "source_id": 6029,
+        "target_id": 3364,
+        "strength": 16.0
+      }
+    ]
+  }
+}

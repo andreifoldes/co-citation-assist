@@ -1,0 +1,78 @@
+{
+	"network": {
+	  "items": [
+		{
+		  "id": 6,
+		  "label": "brandon t. mcdaniel (2019)",
+		  "description": "<table><tr><td>Authors:</td><td>brandon t. mcdaniel</td></tr><tr><td>Title:</td><td>parent distraction with phones, reasons for use, and impacts on parenting and child outcomes: a review of the emerging research</td></tr><tr><td>Source:</td><td>human behavior and emerging technologies</td></tr><tr><td>Year:</td><td>2019</td></tr></table>",
+		  "url": "https://www.semanticscholar.org/paper/54c3a51299f68b0bb6d6bba8c7a38261a33fafef",
+		  "x": 0.0716,
+		  "y": 0.2452,
+		  "cluster": 4,
+		  "weights": {
+			"Links": 16.0000,
+			"Total link strength": 26.0000,
+			"Citations": 168.0000,
+			"Norm. citations": 2.0241
+		  },
+		  "scores": {
+			"Pub. year": 2019.0000,
+			"Citations": 168.0000,
+			"Norm. citations": 2.0241
+		  }
+		},
+		{
+		  "id": 44,
+		  "label": "k. macdonald (2021)",
+		  "description": "<table><tr><td>Authors:</td><td>k. macdonald; j. schermer</td></tr><tr><td>Title:</td><td>loneliness unlocked: associations with smartphone use and personality.</td></tr><tr><td>Source:</td><td>acta psychologica</td></tr><tr><td>Year:</td><td>2021</td></tr></table>",
+		  "url": "https://www.semanticscholar.org/paper/1b458445dc4f893584b6e5c05b73a92cd7a51ec3",
+		  "x": -0.4524,
+		  "y": -0.1361,
+		  "cluster": 5,
+		  "weights": {
+			"Links": 20.0000,
+			"Total link strength": 36.0000,
+			"Citations": 25.0000,
+			"Norm. citations": 1.1017
+		  },
+		  "scores": {
+			"Pub. year": 2021.0000,
+			"Citations": 25.0000,
+			"Norm. citations": 1.1017
+		  }
+		},
+		{
+		  "id": 60,
+		  "label": "philippe verduyn (2020)",
+		  "description": "<table><tr><td>Authors:</td><td>philippe verduyn; julia c. c. schulte-strathaus; e. kross; ute r. hülsheger</td></tr><tr><td>Title:</td><td>when do smartphones displace face-to-face interactions and what to do about it?</td></tr><tr><td>Source:</td><td>computers in human behavior</td></tr><tr><td>Year:</td><td>2020</td></tr></table>",
+		  "url": "https://www.semanticscholar.org/paper/2a3bdc69b94d6eac2a9ca279d15b969e4e2d4eae",
+		  "x": -0.4791,
+		  "y": -0.2483,
+		  "cluster": 2,
+		  "weights": {
+			"Links": 18.0000,
+			"Total link strength": 37.0000,
+			"Citations": 51.0000,
+			"Norm. citations": 2.2078
+		  },
+		  "scores": {
+			"Pub. year": 2020.0000,
+			"Citations": 51.0000,
+			"Norm. citations": 2.2078
+		  }
+		}
+	  ],
+	  "links": [
+		{
+		  "source_id": 6,
+		  "target_id": 44,
+		  "strength": 2.0000
+		},
+		{
+		  "source_id": 44,
+		  "target_id": 60,
+		  "strength": 4.0000
+		}
+	  ]
+	}
+  }

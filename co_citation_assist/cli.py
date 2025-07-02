@@ -12,6 +12,7 @@ import datetime # To potentially use for filenames if needed, but keeping fixed 
 from .ris_parser import extract_dois_from_ris, extract_identifiers_from_ris
 from .apis.composite import CompositeAPI
 from .analyzer import CocitationAnalyzer, SummaryRecord, ResultRecord, RawDataRecord, Doi # Import new types
+from .network_generator import NetworkGenerator, LinkingMode # Import network generation types
 
 # Application instance
 app = typer.Typer(
@@ -89,7 +90,7 @@ def write_json(filepath: Path, data: dict):
     try:
         with filepath.open('w', encoding='utf-8') as jsonfile:
             # Use indent for readability
-            json.dump(data, jsonfile, indent=4)
+            json.dump(data, jsonfile, indent=4, ensure_ascii=False)
         logger.info(f"Successfully wrote detailed data to {filepath}")
         print(f"Detailed references/citations saved to: {filepath}")
     except IOError as e:
@@ -99,8 +100,9 @@ def write_json(filepath: Path, data: dict):
         logger.error(f"An unexpected error occurred while writing {filepath}: {e}", exc_info=True)
         print(f"Error: An unexpected error occurred while writing {filepath}.", file=sys.stderr)
 
-@app.command()
-def run(
+@app.callback(invoke_without_command=True)
+def analyze(
+    ctx: typer.Context,
     ris_file: Annotated[Optional[Path],
         typer.Argument(
             help="Path to the input .ris file containing the initial set of references.",
@@ -161,6 +163,9 @@ def run(
     - output/detailed_references_citations.json: Raw lists of references/citations for each initial DOI.
     - output/cli.log: Complete log of the CLI execution.
     """
+    # If no subcommand is provided, continue with the analysis
+    if ctx.invoked_subcommand is not None:
+        return
     # Validate input - must provide either RIS file or DOIs
     if not ris_file and not dois:
         logger.error("No input provided. Must specify either RIS file or DOI(s).")
@@ -362,6 +367,96 @@ def run(
     write_json(output_dir / "detailed_references_citations.json", raw_data)
 
     print("\nAnalysis finished.")
+
+@app.command()
+def network(
+    citations_file: Annotated[Path,
+        typer.Argument(
+            help="Path to the detailed_references_citations.json file.",
+            exists=True,
+            file_okay=True,
+            dir_okay=False,
+            readable=True,
+            resolve_path=True,
+        )
+    ],
+    output_file: Annotated[Optional[Path],
+        typer.Option(
+            "-o", "--output",
+            help="Output path for the network JSON file (default: network.json in same directory as input).",
+        )
+    ] = None,
+    mode: Annotated[LinkingMode,
+        typer.Option(
+            "--mode",
+            help="Linking mode for network generation.",
+        )
+    ] = LinkingMode.BIBLIOGRAPHIC_COUPLING,
+    min_strength: Annotated[int,
+        typer.Option(
+            "--min-strength",
+            help="Minimum link strength to include in network (default: 1).",
+            min=1,
+        )
+    ] = 1,
+    max_nodes: Annotated[Optional[int],
+        typer.Option(
+            "--max-nodes",
+            help="Maximum number of nodes to include in network (default: no limit).",
+            min=1,
+        )
+    ] = None,
+):
+    """
+    Generate a network structure from detailed citations JSON file.
+    
+    Creates a VOSGraph-compatible network JSON file showing relationships between papers
+    based on the specified linking mode and strength parameters.
+    """
+    # Set default output file if not provided
+    if output_file is None:
+        output_file = citations_file.parent / "network.json"
+    
+    # Ensure output directory exists
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    print(f"Generating network from: {citations_file}")
+    print(f"Mode: {mode.value}")
+    print(f"Minimum link strength: {min_strength}")
+    if max_nodes:
+        print(f"Maximum nodes: {max_nodes}")
+    
+    try:
+        # Initialize network generator
+        generator = NetworkGenerator()
+        
+        # Load citations data
+        with citations_file.open('r', encoding='utf-8') as f:
+            citations_data = json.load(f)
+        
+        # Generate network
+        network_data = generator.generate_network(
+            citations_data=citations_data,
+            mode=mode,
+            min_strength=min_strength,
+            max_nodes=max_nodes
+        )
+        
+        # Write network file
+        write_json(output_file, network_data)
+        
+        # Print summary
+        num_nodes = len(network_data.get("network", {}).get("items", []))
+        num_links = len(network_data.get("network", {}).get("links", []))
+        print(f"\nNetwork generated successfully:")
+        print(f"  Nodes: {num_nodes}")
+        print(f"  Links: {num_links}")
+        print(f"  Output: {output_file}")
+        
+    except Exception as e:
+        logger.error(f"Failed to generate network: {e}", exc_info=True)
+        print(f"Error: Failed to generate network. {e}", file=sys.stderr)
+        raise typer.Exit(code=1)
 
 # Entry point for the script defined in pyproject.toml
 def main():
